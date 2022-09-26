@@ -109,3 +109,22 @@ body {
     margin-left: 20px;
     border-radius: 8px;
 }
+
+.donation-img img {
+    padding-top: 7%;
+    width: 48%;
+    height: 45%;
+    padding-left: 23px;
+}
+
+.suvive-container {
+    text-align: center;
+}
+
+.link-button2 {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(rgb(238, 82, 108), rgb(214, 194, 197));
+    padding: 10px 50px;
+
+}
