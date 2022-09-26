@@ -44,6 +44,20 @@ body {
     justify-content: space-evenly;
 }
 
+.tk-normal {
+    background-color: rgb(247, 240, 240);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.tk-colorful {
+    color: red;
+    background-color: rgb(241, 207, 207);
+    border: 2px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 #other-amount {
     text-align: center;
@@ -55,4 +69,43 @@ body {
 
 .ass-color {
     color: darkgrey;
+}
+
+.card-container {
+    width: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 25%;
+    /* text-align: left; */
+
+}
+
+.card-1 {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(160, 215, 224);
+    margin-right: 20px;
+    border-radius: 8px;
+
+}
+
+.card-2 {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(224, 224, 155);
+    border-radius: 8px;
+}
+
+.card-3 {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(240, 195, 202);
+    margin-left: 20px;
+    border-radius: 8px;
 }
