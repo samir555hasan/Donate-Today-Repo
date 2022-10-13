@@ -1,4 +1,4 @@
-body {
+ShaFiqul ShaFiqul IsLam body {
     font-family: 'Poppins',
         sans-serif;
     margin: 0%;
@@ -13,7 +13,8 @@ body {
     background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    margin: 0 auto;
 }
 
 .head-container {
@@ -72,45 +73,38 @@ body {
     color: darkgrey;
 }
 
+.plan-container {
+    text-align: center;
+}
+
 .card-container {
     width: 50%;
     display: flex;
-    /* justify-content: space-between; */
     padding-left: 25%;
-    /* text-align: left; */
-
 }
 
-.card-1 {
+.card {
     padding-left: 27px;
     padding-right: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(160, 215, 224);
     margin-right: 40px;
     border-radius: 8px;
+}
+
+#card-1 {
+    background-color: rgb(160, 215, 224);
     border-left: 6px solid rgb(64, 198, 252);
 
 }
 
-.card-2 {
-    padding-left: 27px;
-    padding-right: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#card-2 {
     background-color: rgb(224, 224, 155);
-    border-radius: 8px;
     border-left: 6px solid yellow;
 }
 
-.card-3 {
-    padding-left: 27px;
-    padding-right: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#card-3 {
     background-color: rgb(240, 195, 202);
-    margin-left: 40px;
-    border-radius: 8px;
     border-left: 6px solid red;
 }
 
@@ -122,6 +116,10 @@ body {
 }
 
 .suvive-container {
+    text-align: center;
+}
+
+.suvives-container {
     text-align: center;
 }
 
@@ -142,6 +140,10 @@ body {
     padding-top: 3%;
     padding-bottom: 5%;
 
+}
+
+.h22 {
+    font-size: 50px;
 }
 
 .email-tab {
@@ -171,3 +173,162 @@ body {
     font-size: 35px;
     color: rgb(106, 245, 203);
 }
+
+/* moble divice respnsive start */
+@media screen and (max-width:576px) {
+    .top-banner {
+        height: 500px;
+        width: 660px;
+        margin-bottom: 0px;
+    }
+
+    .head-container {
+        text-align: center;
+        color: white;
+    }
+
+    #h1-container {
+        font-size: 26px;
+    }
+
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(rgb(187, 58, 148), rgb(67, 104, 146));
+        color: rgb(255, 255, 255);
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .donate-container {
+        text-align: center;
+        padding-top: 0px;
+        padding-left: 60px;
+    }
+
+    #h2-container {
+        font-size: 40px;
+    }
+
+    .donate-container-text br {
+        display: none;
+    }
+
+    .tk-normal {
+        background-color: rgb(247, 240, 240);
+        margin: 5px;
+    }
+
+    .tk-normal,
+    h2 {
+        font-size: 12px;
+    }
+
+    .tk-colorful,
+    h2 {
+        font-size: 12px;
+    }
+
+    .plan {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aa {
+        margin-left: 60px;
+    }
+
+    .bb {
+        margin-left: 50px;
+    }
+
+    .bb br {
+        display: none;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        width: 100%;
+    }
+
+    .donation-img img {
+        width: 80%;
+        margin-left: 90px;
+    }
+
+    .suvive-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .h22 {
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pp br {
+        display: none;
+
+    }
+
+    .link-button2 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(rgb(77, 153, 124), rgb(89, 31, 155));
+        padding: 10px;
+        border-radius: 3px;
+        width: 50%;
+        margin-left: 130px;
+    }
+
+    .update-container {
+        margin-top: 8%;
+        background-color: rgb(235, 193, 114);
+        width: 90%;
+    }
+
+    .update-container-text {
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .suvives-container {
+        text-align: center;
+    }
+
+    .suvives-container br {
+        display: none;
+    }
+
+    .input-btn {
+        display: flex;
+        margin-right: 200px;
+    }
+
+    .footer-items {
+        width: full;
+    }
+
+}
+
+/* moble divice respnsive End */
+
+/* //////// */
+
+/* tablet divice respnsive start */
+
+@media screen and (max-width:768px) {
+
+    .icon-items {
+        font-size: 35px;
+        color: rgb(106, 245, 203);
+    }
+}
+
+/* tablet divice respnsive end */
